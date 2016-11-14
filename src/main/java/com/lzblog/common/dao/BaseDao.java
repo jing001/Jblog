@@ -54,7 +54,6 @@ public interface BaseDao<T> {
 	 * @see public int delete(T entity)
 	 * @return
 	 */
-	@Deprecated
 	public int delete(String id);
 	
 	/**
@@ -63,7 +62,6 @@ public interface BaseDao<T> {
 	 * @see public int delete(T entity)
 	 * @return
 	 */
-	@Deprecated
 	public int deleteByLogic(String id);
 }
 
